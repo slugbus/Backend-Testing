@@ -30,6 +30,6 @@ func TestTapsMergeMeasurements(*testing.T) {
 	fmt.Printf("\nMerged Data:\n")
 	// print out currentBuses
 	for k := range currentBuses {
-		fmt.Printf("ID: %s\n Lon: %f\n Lat: %f\n Type: %s\n Speed: %f\n Angle: %f\n", currentBuses[k].ID, currentBuses[k].Lon, currentBuses[k].Lat, currentBuses[k].Type, currentBuses[k].Speed, currentBuses[k].Angle)
+		fmt.Printf("ID: %s\n location: %f %f\n Type: %s\n Speed: %f\n Angle: %f\n", currentBuses[k].ID, currentBuses[k].Lat, currentBuses[k].Lon, currentBuses[k].Type, currentBuses[k].Speed, currentBuses[k].Angle)
 	}
 }
